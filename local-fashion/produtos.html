@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Produtos | Local Fashion</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+ 
+  <header>
+    <div class="container">
+      <h1 class="logo">Local Fashion</h1>
+      <nav class="menu">
+        <ul>
+          <li><a href="home.html">Início</a></li>
+          <li><a href="detalhesP.html">Detalhes</a></li>
+          <li><a href="produtos.html">Produtos</a></li>
+          <li><a href="login.html">Login / Cadastro</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  
+  <section class="filtros">
+    <div class="container">
+      <h2>Filtrar Produtos</h2>
+      <form id="form-filtros">
+        <div class="filtro-item">
+          <label for="tamanho">Tamanho:</label>
+          <select id="tamanho" name="tamanho">
+            <option value="">Todos</option>
+            <option value="P">P</option>
+            <option value="M">M</option>
+            <option value="G">G</option>
+            <option value="GG">GG</option>
+          </select>
+        </div>
+
+        <div class="filtro-item">
+          <label for="cor">Cor:</label>
+          <select id="cor" name="cor">
+            <option value="">Todas</option>
+            <option value="preto">Preto</option>
+            <option value="branco">Branco</option>
+            <option value="colorido">Colorido</option>
+            <option value="verde">Verde</option>
+            <option value="vermelho">Vermelho</option>
+          </select>
+        </div>
+
+        <div class="filtro-item">
+          <label for="categoria">Categoria:</label>
+          <select id="categoria" name="categoria">
+            <option value="">Todas</option>
+            <option value="blusa">Blusa</option>
+            <option value="calca">Calça</option>
+            <option value="saia">Saia</option>
+            <option value="vestido">Vestido</option>
+            <option value="blazer">Blazer</option>
+          </select>
+        </div>
+
+        <button type="submit">Aplicar Filtros</button>
+      </form>
+    </div>
+  </section>
+
+
+  <section class="produtos">
+    <div class="container">
+      <h2>Nossos Produtos</h2>
+      <div class="grid-produtos">
+
+        <div class="produto-card">
+          <img src="blusa1.jpeg" alt="Blusa de Linho" />
+          <h3>Blusa de Linho</h3>
+          <p class="preco">R$ 89,90</p>
+          <a href="produto-detalhe.html" class="btn-detalhes">Ver Detalhes</a>
+        </div>
+
+        <div class="produto-card">
+          <img src="VestidoFloral.jpg" alt="Vestido Floral Casual" />
+          <h3>Vestido Floral</h3>
+          <p class="preco">R$ 119,90</p>
+          <a href="produto-detalhe.html" class="btn-detalhes">Ver Detalhes</a>
+        </div>
+
+        <div class="produto-card">
+          <img src="saia.jpg" alt="Saia Midi" />
+          <h3>Saia Midi</h3>
+          <p class="preco">R$ 79,90</p>
+          <a href="produto-detalhe.html" class="btn-detalhes">Ver Detalhes</a>
+        </div>
+
+        <div class="produto-card">
+          <img src="cropeed.jpg" alt="Top Cropped" />
+          <h3>Top Cropped</h3>
+          <p class="preco">R$ 59,90</p>
+          <a href="produto-detalhe.html" class="btn-detalhes">Ver Detalhes</a>
+        </div>
+
+        <div class="produto-card">
+          <img src="calça.webp" alt="Calça Wide Jeans" />
+          <h3>Calça Wide Leg</h3>
+          <p class="preco">R$ 129,90</p>
+          <a href="produto-detalhe.html" class="btn-detalhes">Ver Detalhes</a>
+        </div>
+
+        <div class="produto-card">
+          <img src="blazerOverside.jpg" alt="Blazer Oversized" />
+          <h3>Blazer Oversized</h3>
+          <p class="preco">R$ 189,90</p>
+          <a href="produto-detalhe.html" class="btn-detalhes">Ver Detalhes</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Local Fashion – Todos os direitos reservados.</p>
+      <p>Rua Padre Pedro Pinto, 3000 – Venda Nova, Belo Horizonte – MG</p>
+    </div>
+  </footer>
+
+</body>
+</html>
